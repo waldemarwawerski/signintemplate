@@ -1,0 +1,68 @@
+body {
+    background-color: #101924;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+img {
+height: 40px;
+}
+h2 {
+    color: white;  
+}
+p {
+    color: white;  
+
+}
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 44%;
+  height: 50vh;
+  background-color: gray;
+  border-radius: 0.5%;
+  border: 1px solid white;
+}
+.btn{
+    height: 45px;
+    width: 80%;
+    background-color: #141c26;
+    
+}
+.buttonSign {
+   background-color: #6576ff; 
+   border: 1px solid #6576ff;
+   border-radius: 0.5%;
+   height: 45px;
+   width: 80%;
+}
+.passcodeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.accountContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
