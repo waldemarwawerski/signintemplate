@@ -1,21 +1,35 @@
 body {
-    background-color: #101924;
+  background-color: rgb(16, 25, 36);
+    color: rgb(182, 198, 227);
+    font-family: Roboto, Helvetica, Arial, sans;
 }
 
 h1 {
     color: white;
     text-align: center;
+    padding-left: 10px;
 }
 img {
 height: 40px;
 }
 h2 {
-    color: white;  
+    color: white; 
+    margin: unset; 
+   
 }
 p {
     color: white;  
-
+   
 }
+
+a {
+  color: rgb(101, 118, 255);
+}
+
+a:hover {
+  color: #fff;
+}
+
 .imageContainer {
   display: flex;
   flex-direction: row;
@@ -27,42 +41,49 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  height: 100%;
 }
 .formContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 44%;
-  height: 50vh;
-  background-color: gray;
+  width: 480px;
+  background-color: rgb(20, 28, 38);
   border-radius: 0.5%;
-  border: 1px solid white;
+  border: 1px solid #1d2d40;;
+  padding: 24px;
 }
+
+.titleContainer {
+    width: 100%;
+
+}
+
 .btn{
-    height: 45px;
-    width: 80%;
+    all: unset;
+    height: 22px;
+    width: 100%;
     background-color: #141c26;
+    padding: 11px 0px;
+    border: 1px solid rgb(56, 77, 105);
+    
     
 }
 .buttonSign {
    background-color: #6576ff; 
    border: 1px solid #6576ff;
    border-radius: 0.5%;
-   height: 45px;
-   width: 80%;
+   height: 44px;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 .passcodeContainer {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
-.accountContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
